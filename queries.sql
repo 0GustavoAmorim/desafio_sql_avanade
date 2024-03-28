@@ -1,3 +1,5 @@
+USE Filmes
+
 -- 1, buscar nome e ano dos filmes
 select Nome, Ano from Filmes
 
@@ -52,4 +54,3 @@ JOIN ElencoFilme EF
 ON F.Id = EF.IdFilme
 JOIN Atores A
 ON EF.IdAtor = A.Id
-
